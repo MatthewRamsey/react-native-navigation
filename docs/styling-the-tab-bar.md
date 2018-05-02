@@ -23,7 +23,6 @@ Navigation.startTabBasedApp({
   tabBarTextFontFamily: 'Avenir-Medium', //change the tab font family
   tabBarLabelColor: '#ffb700', // iOS only. change the color of tab text
   tabBarSelectedLabelColor: 'red', // iOS only. change the color of the selected tab text
-  forceTitlesDisplay: true, // Android only. If true - Show all bottom tab labels. If false - only the selected tab's label is visible.
   tabBarHideShadow: true // Remove default tab bar top shadow (hairline)
 }
 ```
@@ -42,6 +41,7 @@ Navigation.startTabBasedApp({
     tabFontFamily: 'Avenir-Medium',  // existing font family name or asset file without extension which can be '.ttf' or '.otf' (searched only if '.ttf' asset not found)
     tabFontSize: 10,
     selectedTabFontSize: 12,
+    forceTitlesDisplay: true, // Android only. If true - Show all bottom tab labels. If false - only the selected tab's label is visible.
   },
 ...
 }
